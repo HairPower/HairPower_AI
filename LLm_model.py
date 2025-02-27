@@ -712,7 +712,13 @@ def first_question(user_id: str = Path(..., title="User ID")):
         "question": first_question,
         "content": {
             "type": "text/markdown",
-            "text": ai_response
+            "text": json.dumps({
+                "description": "헤어 스타일 추천 결과",
+                "content": {
+                    "type": "text/markdown",
+                    "text": ai_response
+                }
+            }, ensure_ascii=False, indent=2)
         }
     }
 
