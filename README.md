@@ -13,7 +13,7 @@ HairPower는 AI 기반으로 **사용자의 얼굴형을 분석**하고, **개�
 ---
 
 ## 📌 **프로젝트 개요**
-🔍 **HairPower**는 AI 기반의 **컴퓨터 비전과 LLM (Large Language Model)**을 활용한 **헤어스타일 추천 서비스**입니다.
+🔍 **HairPower**는 AI 기반의 CNN과 LLM (Large Language Model)을 활용한 **헤어스타일 추천 서비스**입니다.
 
 ✔️ **EfficientNet**을 사용하여 턱 모양 예측  
 ✔️ **Mediapipe**로 이목구비 비율 분석  
@@ -39,7 +39,8 @@ HairPower는 AI 기반으로 **사용자의 얼굴형을 분석**하고, **개�
 ## 🔥 **주요 기능**
 ### 1️⃣ **사용자 얼굴 분석**
 📸 **사진 업로드 → AI가 얼굴형 분석**  
-✔️ YOLO & Mediapipe를 사용해 얼굴 특징 추출  
+✔️ EfficientNet을 사용하여 턱 모양 예측  
+✔️ Mediapipe를 사용해 얼굴 특징 추출  
 ✔️ 턱, 코, 이마, 미간 등의 비율 분석  
 
 ### 2️⃣ **맞춤형 헤어스타일 추천**
