@@ -1,6 +1,6 @@
 
-# H<img width="225" alt="해커톤 메인" src="https://github.com/user-attachments/assets/a6a3f244-3fe8-4ace-9a1f-bfb689e25e12" />
-airPower_AI
+ <img width="225" alt="해커톤 메인" src="https://github.com/user-attachments/assets/a6a3f244-3fe8-4ace-9a1f-bfb689e25e12" />
+# HairPower_AI
 아래는 **HairPower** 프로젝트의 README 파일입니다. 프로젝트 개요, 주요 기능, API 명세, 설치 방법 등을 포함하여 작성하였습니다.
 
 --- 
